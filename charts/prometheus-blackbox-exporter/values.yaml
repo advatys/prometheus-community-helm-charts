@@ -87,8 +87,8 @@ podSecurityContext: {}
 
 ## User and Group to run blackbox-exporter container as
 securityContext:
-  runAsUser: 1000
-  runAsGroup: 1000
+  # runAsUser: 1000
+  # runAsGroup: 1000
   readOnlyRootFilesystem: true
   runAsNonRoot: true
   allowPrivilegeEscalation: false
